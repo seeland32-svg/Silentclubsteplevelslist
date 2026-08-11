@@ -8,5 +8,11 @@
     "percentToQualify": "100",
     "password": "Copyable",
     "records": [
+        {
+            "user": "Mariocik",
+            "link": "https://youtu.be/U8YJH9p6sPY?is=asK8V7QKqolSNT4O",
+            "percent": 100,
+            "hz": 120
+        }
     ]
 }
