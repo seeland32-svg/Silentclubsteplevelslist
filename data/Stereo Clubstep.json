@@ -8,5 +8,11 @@
     "percentToQualify": "100",
     "password": "Copyable",
     "records": [
+        {
+            "user": "EpixsGD",
+            "link": "https://www.youtube.com/watch?v=emGpEzS2brQ",
+            "percent": 100,
+            "hz": 120
+        }
     ]
 }
