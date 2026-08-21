@@ -30,6 +30,7 @@ export default {
                         </td>
                         <td class="level" :class="{ 'active': selected == i, 'error': !level }">
                             <button @click="selected = i">
+                                <img v-if="level && (level.difficulty || level.difficultyIcon)" :src="'/assets/difficulty-icons/' + (level.difficulty || level.difficultyIcon)" :alt="level.difficulty || level.difficultyIcon" class="difficulty-icon">
                                 <span class="type-label-lg">{{ level?.name || \`Error (\${err}.json)\` }}</span>
                             </button>
                         </td>
