@@ -5,7 +5,7 @@ import { fetchEditors } from '../content.js';
 import Spinner from '../components/Spinner.js';
 import Sidebar from '../components/List/Sidebar.js';
 
-const csvPath = '/data/SCSDL- silent clubstep achievements list (30).csv';
+const csvPath = '/data/SCSDL- silent clubstep achievements list (29).csv';
 const remoteCsv = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vS4hK8Pul9plvCZ0XYWEqQMFVEmPg50fsoUQeKg3Y6BuBEEiG8BE4UtmNxDG_xvgAZ_uZPXl5eptf5A/pub?gid=702241830&single=true&output=csv';
 
 function normalizeAchievementTitle(title = '') {
